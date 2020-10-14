@@ -8,20 +8,21 @@ function giocoDeiDadi() {
     var giocatoreUno = dado_1;
     var giocatoreDue = dado_2;
 
+    //Mostro sul sito il numero del dado uscito.
     document.getElementById('giocatoreUno').innerHTML = dado_1;
-    console.log(dado_1);
+    //console.log(dado_1);
 
+    //Mostro sul sito il numero del dado uscito.
     document.getElementById('giocatoreDue').innerHTML = dado_2;
-    console.log(dado_2);
+    //console.log(dado_2);
 
+    //Mostro sul sito chi vince o se finisce in parità.
     if (dado_1 > dado_2) {
         document.getElementById('vincitore').innerHTML = 'Giocatore 1';
     }
-
     else if (dado_1 == dado_2) {
         document.getElementById('vincitore').innerHTML = 'Pari!';
     }
-
     else {
         document.getElementById('vincitore').innerHTML = 'Giocatore 2';
     }
