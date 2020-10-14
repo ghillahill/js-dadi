@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Gioco dei Dadi</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">
+                Gioco dei Dadi
+            </h1>
+            <p class="lead">
+                Generatore di un numero random compreso tra 1 e 6.
+            </p>
+            <hr class="my-4">
+            <p>Numero Giocatore 1:
+                <span id="giocatoreUno">  </span>
+            </p>
+            <p>Numero Giocatore 2:
+                <span id="giocatoreDue">  </span>
+            </p>
+            <hr class="my-4">
+            <p>Vincitore:
+                <span id="vincitore">  </span>
+            </p>
+
+            <button type="button" id="repeat" class="btn btn-success" onclick="giocoDeiDadi()">Ripeti!</button>
+        </div>
+
+        <script src="assets/main.js" charset="utf-8"></script>
+    </body>
+</html>

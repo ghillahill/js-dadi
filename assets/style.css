@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#giocatoreUno, #giocatoreDue {
+    font-size: 20px;
+    color: red;
+}
+
+#vincitore {
+    font-size: 20px;
+    color: green;
+}
